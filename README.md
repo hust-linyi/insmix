@@ -10,7 +10,7 @@ This is the official code for "InsMix: Towards Realistic Generative Data Augment
 ### Method
 ![method](figs/insmix2.png)
 
-### Useage
+### Usage
 The fuctions 'insmix' and 'background shuffle' can be found in 'data_aug.py'.
 The example code for dataloader is in 'dataset.py'. Note that it can be used to [BRPNet](https://github.com/csccsccsccsc/brpnet) and [NB-Net](https://github.com/easycui/nuclei_segmentation), which utilize two types of label, i.e., the inner area and the boundary.
 
