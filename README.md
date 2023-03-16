@@ -11,8 +11,15 @@ This is the official code for "InsMix: Towards Realistic Generative Data Augment
 ![method](figs/insmix2.png)
 
 ### Usage
+#### InsMix w/o Smooth-GAN
 The fuctions 'insmix' and 'background shuffle' can be found in 'data_aug.py'.
 The example code for dataloader is in 'dataset.py'. Note that it can be used to [BRPNet](https://github.com/csccsccsccsc/brpnet) and [NB-Net](https://github.com/easycui/nuclei_segmentation), which utilize two types of label, i.e., the inner area and the boundary.
+#### InsMix w/ Smooth-GAN
+You may simply run the scripts as:
+```
+bash Smooth-GAN/scripts/train_nuclei.sh
+bash Smooth-GAN/scripts/test_nuclei.sh
+```
 
 ### Citation
 Pleae cite the paper if you use the code.
@@ -26,6 +33,8 @@ Pleae cite the paper if you use the code.
 }
 ```
 ### TODO
-- [ ] Smooth-GAN.
 - [ ] Training and testing on Kumar dataset.
 - [ ] Refactor the code to make it more readable.
+
+### Acknowledgment 
+The code of Smooth-GAN is heavily build on [pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix), thanks for their amazing work!
