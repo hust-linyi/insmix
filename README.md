@@ -10,6 +10,13 @@ This is the official code for "InsMix: Towards Realistic Generative Data Augment
 ### Method
 ![method](figs/insmix2.png)
 
+### Requirements
+torch>=1.4.0
+torchvision>=0.5.0
+dominate>=2.4.0
+visdom>=0.1.8.8
+wandb
+
 ### Usage
 #### InsMix w/o Smooth-GAN
 The fuctions 'insmix' and 'background shuffle' can be found in 'data_aug.py'.
